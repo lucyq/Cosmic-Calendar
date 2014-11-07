@@ -443,13 +443,6 @@ function images() {
 		console.log("Your browser doesn't support canvas!");
 		return;
 	}
-
-/* CHECKS POSITION OF PINS
-	for (var i = 0; i < markerPos.length; i++) {
-		bluePin(markerPos[i]["x"], markerPos[i]["y"]);
-	}
-*/
-
 }
 
 function bluePin(x, y) {
