@@ -1,14 +1,17 @@
-@font-face
-{
-font-family: Jalane;
-src: url(Jalane_light.ttf);
+@font-face {
+    font-family: Jalane;
+    src: url(Jalane_light.ttf);
 }
 
-@font-face
-{
-font-family: Lane;
-src: url(LANENAR_.ttf);
+@font-face {
+    font-family: Lane;
+    src: url(LANENAR_.ttf);
 }
+
+body {
+    text-align: center;
+}
+
 
 h1 {
 	font-size: 70px;
@@ -59,6 +62,6 @@ label {
     width: 150px;
     float: left;
     margin: 2px 4px 6px 4px;
-    text-align: right;
+    text-align: center;
 }
 br { clear: left; }

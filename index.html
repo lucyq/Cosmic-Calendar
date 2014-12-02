@@ -15,15 +15,18 @@
 	</div>
 	<div id = "question"></div>
 	<div id ="response">
-		<p>Please enter your guess below using numbers, then hit "enter"</p>
-		 <label for ="month">Month:</label>
-		 <input type = "text" id ="month" class="input" size="30"/>
+		<p>Please enter your guess below in numerical format, then hit "enter"</p>
+		<p>Example: 1/1, 10/1</p>
+		 Month:
+		 <input type = "text" id ="month" class="input" size="3"/>
 		 <br>
-		 <label for ="day">Day:</label>
-		 <input type = "text" id ="day" class="input" size ="30"/> 
-		 <br>
+		Day:
+		 <input type = "text" id ="day" class="input" size ="3"/> 
+		 <br><br>
 		 <input value="Enter" name="guess" type="button" value="guess" onclick="getResponse()">
 	</div>
+	<br><br>
+
 	<div id="calendar">
 		<canvas id="visual" height="625" width="1190">
 		Your browser doesn't support canvas! Please try using a different one!
